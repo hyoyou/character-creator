@@ -1,9 +1,19 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  position: relative
+}
+
+.decoration {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  background: hsl(195deg, 20%, 86%);
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
